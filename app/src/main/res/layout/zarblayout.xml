@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/flor"
+            android:drawableRight="@drawable/ic_baseline_star_border_purple500_24"
+            android:drawableLeft="@drawable/ic_baseline_star_border_purple500_24"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="sprichwort"
+            android:textColor="@color/black">
+        </TextView>
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bade"
+                android:scaleType="fitXY">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:textDirection="rtl"
+                android:layout_marginTop="4dp"
+                android:text="Bald reif hält nicht steif"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="باد آورده را باد می برد."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/moshabeh"
+                android:scaleType="fitXY">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textDirection="rtl"
+                android:layout_marginTop="4dp"
+                android:padding="10dp"
+                android:text="Gleiche Gemüter suchen sich"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="4dp"
+                    android:padding="10dp"
+                    android:text="ذهن های مشابه به دنبال یکدیگر می گردند."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/tarso"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Die Ratten verlassen das sinkende Schiff"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="هنگام خطر افراد ترسو از همه زودتر فرار می کنند."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/rosva"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="4dp"
+                    android:padding="10dp"
+                    android:text="Andere Länder, andere Sitten"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="4dp"
+                    android:padding="10dp"
+                    android:text="خواهی نشوی رسوا همرنگ جماعت شو."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pedar"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="An den Früchten erkennt man den Baum"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="پسر کو ندارند نشان از پدر."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/shoja"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Das Glück hilft dem Kühnen"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="موفقیت با شجاعان است."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/padeshah"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Unter den Blinden ist der Einäugige König"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="در شهر کوران آدم یک چشم پادشاه است."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/movafagh"
+                android:layout_height="100dp"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Wer Feuer bedarf, sucht es in der Asche"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="موفقیت به معنی انجام کاری است که دوست دارید."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/dide"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Aus den Augen, aus dem Sinn"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="از دل برود هر آنچه از دیده برفت."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ghaza"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Beiß nicht in die Hand, die dich füttert"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="دستی که بهت غذا داده را گاز نگیر."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/gele"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Wie du mir , so ich dir"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="چیزی که عوض داره گله نداره."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/niki"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Machst du es gut , so hast du es gut"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="تو نیکی میکن و در دجله انداز که ایزد در بیابانت دهد باز."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/gol"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Eine Schwalbe macht noch keinen Sommer"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="با یک گل بهار نمی شود."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kah"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text=" Eine Stecknadel im Heuhaufen suchen"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="دنبال سوزن در انبار کاه گشتن."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sabr"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Rom ist auch nicht an einem Tag erbaut worden"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="گر صبر کنی ز غوره حلوا سازی."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/nody"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Viele Köche verderben den Brei"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="آشپز که دو تا شد آش یا شور می شود یا بی نمک."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/asb"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Einem geschenkten Gaul schaut man nicht ins"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="دندان های اسب پیشکشی را نمی شمرند."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kooh"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Aus einer Mücke einen Elefanten machen"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="از کاه کوه ساختن."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sahar"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Morgenstund’ hat Gold im Mund"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="سحرخیز باش تا کام روا باشی."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/pars"
+                android:layout_height="100dp"
+                android:scaleType="fitXY">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/lightBlue"
+                android:layout_margin="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Hunde, die bellen, beißen nicht"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textDirection="rtl"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:text="سگی که پارس می کند گاز نمی گیرد."
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/flor"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

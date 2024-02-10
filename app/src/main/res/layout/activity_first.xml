@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_margin="15sp"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="309dp"
+            android:layout_height="163dp"
+            android:background="@drawable/bgshape"
+            android:gravity="center"
+            android:src="@drawable/icon"></ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/btnExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn"
+            android:drawableRight="@drawable/ic_baseline_menu_book_24"
+            android:onClick="expVoid"
+            android:text="اصطلاحات پرکاربرد"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="@color/btn"
+            android:drawableRight="@drawable/ic_baseline_event_note_24"
+            android:onClick="wordVoid"
+            android:text="کلمات ضروری"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="@color/btn"
+            android:drawableRight="@drawable/ic_baseline_emoji_emotions_24"
+            android:onClick="zarbVoid"
+            android:text="ضرب المثل"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="@color/btn"
+            android:drawableRight="@drawable/ic_baseline_app_settings_alt_24"
+            android:onClick="aboutVoid"
+            android:text="درباره اپلیکیشن"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15sp"
+            android:backgroundTint="@color/btn"
+            android:drawableRight="@drawable/ic_baseline_cancel_24"
+            android:onClick="exitVoid"
+            android:text="خروج"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="116"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

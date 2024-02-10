@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/lightBlue"
+    tools:context=".word.organ.OrganActivity">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spOrgan"
+        android:entries="@array/organ"></Spinner>
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_marginTop="20sp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtContent"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:backgroundTint="@color/white"
+            android:layout_width="42dp"
+            android:layout_height="31dp"
+            android:drawableRight="@drawable/ic_baseline_volume_up_24"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

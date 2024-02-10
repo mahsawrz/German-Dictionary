@@ -1,0 +1,353 @@
+<resources>
+    <string name="dictionary">اصطلاحات آلمانی</string>
+    <array name="dr">
+        <item>یه وضعیت اورژانسی دارم</item>
+        <item>به کمک احتیاج دارم</item>
+        <item>لطفا دکتر خبر کنید</item>
+        <item>لطفا مرا به بیمارستان ببرید</item>
+        <item>همین الان نیاز به دکتر دارم</item>
+        <item>هرچه سریعتر لطفا</item>
+        <item>یه مشکل پزشکی دارم</item>
+        <item>درد دارم</item>
+        <item>حالت تهوع دارم</item>
+        <item>سردرد دارم</item>
+        <item>میشه یه دکتر ویزیتم کنه ؟</item>
+        <item>کجا میتونم یه داروخانه پیدا کنم ؟</item>
+        <item>میتونم وقت بگیرم؟</item>
+        <item>گلوم می سوزه</item>
+        <item>سرما خوردم</item>
+        <item>حالم خوب نیست</item>
+        <item>من دارو مصرف میکنم</item>
+        <item>نسخه لازمه ؟</item>
+        <item>آسم دارم</item>
+        <item>نحوه مصرف کردنش به چه صورته ؟</item>
+        <item>دوز توصیه شده چقدره ؟</item>
+    </array>
+
+    <array name="loc">
+        <item>بپیج راست</item>
+        <item>بپیچ چپ</item>
+        <item>دو تا خیابان آن طرف تر</item>
+        <item>سرچراغ های بعدی بپیچ</item>
+        <item>سمت چپ تابلوی ایست میپیچی</item>
+        <item>همین طور مستقیم برو</item>
+        <item>یه تابلو سمت چپ میبینی</item>
+        <item>برمی گردی خیابان اصلی</item>
+        <item>زیر پل میری</item>
+        <item>ایستگاهم رو رد کردم</item>
+        <item>از سمت راست برانید</item>
+        <item>سر تقاطع</item>
+        <item>طبقه اول ، طبقه همکف</item>
+        <item>سر کوچه است</item>
+        <item>برو طبقه پایین</item>
+        <item>برو طبقه بالا</item>
+        <item>سمت شرقی خیابان اصلی رو بگیر و برو</item>
+        <item>سمت جنوبی بزرگراه رو برو</item>
+    </array>
+
+    <array name="rest">
+        <item>لطفا یه سالاد واسم بیارید</item>
+        <item>این میز رزروه ؟</item>
+        <item>صورتحساب رو لطف می کنید ؟</item>
+        <item>باید از قبل رزرو کنیم ؟</item>
+        <item>یه میز رزرو کرده بودم</item>
+        <item>میشه منو رو بیارید لطفا ؟</item>
+        <item>لطفا یه لیوان آب بیارید</item>
+        <item>بیرون هم میشه نشست ؟</item>
+        <item>نمکش زیاد بود</item>
+        <item>این غذا گلوتن داره ؟</item>
+        <item>منوی مخصوص کودکان هم دارید ؟</item>
+        <item>سرویس بهداشتی کجاست ؟</item>
+        <item>من به لبنیات حساسیت دارم</item>
+        <item>می تونیم غذا رو ببریم ؟</item>
+        <item>حساب من چه قدر شد ؟</item>
+        <item>نوش جان</item>
+        <item>استیکم نیم خام باشه ، لطفا</item>
+        <item>غذای من سرد شده</item>
+        <item>از غذا راضی نیستم میشه عوضش کنید ؟</item>
+    </array>
+
+    <array name="bank">
+        <item>نرخ مبادله چنده ؟</item>
+        <item>این خودپرداز کارتم رو قبول میکنه ؟</item>
+        <item>می خواستم موجودیمو بدونم</item>
+        <item>می خوام از حساب جاریم برداشت کنم</item>
+        <item>می تونید یه کارت جدید واسم بفرستید ؟</item>
+        <item>نام کاربریم رو فراموش کردم</item>
+        <item>میشه شماره حسابم رو چک کنید ؟</item>
+        <item>ممکنه یه پرینت از حسابم داشته باشم ؟</item>
+        <item>نزدیک ترین خودپرداز کجاست ؟</item>
+        <item>درصد کارمزد چقدره ؟</item>
+        <item>سقف برداشت چقدره ؟</item>
+        <item>کف برداشت چقدره ؟</item>
+        <item>می خواستم از حساب پس اندازم برداشت کنم</item>
+        <item>می خوام ارز تبدیل کنم. میشه کمک کنید ؟</item>
+        <item>کد تایید چیه ؟</item>
+        <item>رمز عبورم رو فراموش کردم</item>
+        <item>می خوام قبض پرداخت کنم</item>
+        <item>متصدی بانک کجاست ؟</item>
+        <item>در مورد تراکنشی که می خوام انجام بدم یه سوالی دارم</item>
+        <item>نزدیک ترین شعبه کجاست ؟</item>
+    </array>
+
+    <array name="daily">
+        <item>اوضاع چطوره ؟</item>
+        <item>چه خبرا ؟</item>
+        <item>می بینمت</item>
+        <item>خیلی متشکرم</item>
+        <item>سرت شلوغه ؟</item>
+        <item>این طور به نظر میاد</item>
+        <item>برام مهم نیست</item>
+        <item>برام فرقی نداره</item>
+        <item>موفق باشی</item>
+        <item>مشکلی نیست</item>
+        <item>دوستت دارم</item>
+        <item>شک ندارم</item>
+        <item>خیال پردازی نکن</item>
+        <item>نظرت واسم اهمیت داره</item>
+        <item>دیگه وقتش رسیده</item>
+        <item>الان برمی گردم</item>
+        <item>منتظرم بمون</item>
+        <item>باهات تماس می گیرم</item>
+        <item>کجا همو ببینیم ؟</item>
+        <item>خوشتیپ شدی امروز</item>
+    </array>
+
+    <array name="organ">
+        <item>شکم</item>
+        <item>چانه</item>
+        <item>دهان</item>
+        <item>پوست</item>
+        <item>چهره</item>
+        <item>آرنج</item>
+        <item>لپ</item>
+        <item>انگشت</item>
+        <item>گردن</item>
+        <item>دندان</item>
+        <item>شانه</item>
+        <item>چشم</item>
+        <item>دست</item>
+        <item>بینی</item>
+        <item>گوش</item>
+        <item>پا</item>
+        <item>زانو</item>
+        <item>ناخن</item>
+        <item>قلب</item>
+        <item>مغز</item>
+        <item>کلیه</item>
+        <item>کبد</item>
+        <item>معده</item>
+        <item>استخوان</item>
+        <item>حلق</item>
+        <item>حنجره</item>
+        <item>ران</item>
+        <item>ریه</item>
+        <item>مو</item>
+        <item>زبان</item>
+        <item>زیر بغل</item>
+    </array>
+
+    <array name="bar">
+        <item>اتوبوس</item>
+        <item>تاکسی</item>
+        <item>اتومبیل</item>
+        <item>دوچرخه</item>
+        <item>قطار</item>
+        <item>موتورسیکلت</item>
+        <item>هواپیما</item>
+        <item>کشتی</item>
+        <item>هلیکوپتر</item>
+        <item>کامیون</item>
+        <item>قایق</item>
+        <item>مترو</item>
+        <item>ون</item>
+        <item>تریلر</item>
+    </array>
+
+    <array name="hava">
+        <item>خورشید</item>
+        <item>ماه</item>
+        <item>ابر</item>
+        <item>ستاره</item>
+        <item>باران</item>
+        <item>برف</item>
+        <item>آسمان</item>
+        <item>غبار</item>
+        <item>سرد</item>
+        <item>گرم</item>
+        <item>حرارت</item>
+        <item>گردباد</item>
+        <item>طوفان</item>
+        <item>یخبندان</item>
+        <item>موج</item>
+        <item>باد</item>
+        <item>رعد و برق</item>
+    </array>
+
+    <array name="date">
+        <item>شیر</item>
+        <item>سگ</item>
+        <item>ببر</item>
+        <item>مار</item>
+        <item>خرگوش</item>
+        <item>عقاب</item>
+        <item>الاغ</item>
+        <item>پلنگ</item>
+        <item>زرافه</item>
+        <item>آهو</item>
+        <item>بز</item>
+        <item>کانگورو</item>
+        <item>خر</item>
+        <item>کبک</item>
+        <item>گوسفند</item>
+        <item>لاک پشت</item>
+        <item>خرس</item>
+        <item>پروانه</item>
+        <item>فیل</item>
+        <item>تمساح</item>
+        <item>میمون</item>
+        <item>کلاغ</item>
+        <item>گربه</item>
+        <item>گاو</item>
+    </array>
+
+    <array name="job">
+        <item>مهندس کامپیوتر</item>
+        <item>مهندس برق</item>
+        <item>وکیل</item>
+        <item>پلیس</item>
+        <item>دامپزشک</item>
+        <item>دندانپزشک</item>
+        <item>آرایشگر</item>
+        <item>معمار</item>
+        <item>بازیگر</item>
+        <item>روانشناس</item>
+        <item>نانوا</item>
+        <item>مهندس عمران</item>
+        <item>معلم</item>
+        <item>مهندس نفت</item>
+        <item>فروشنده</item>
+        <item>ماهیگیر</item>
+        <item>خلبان</item>
+        <item>مهماندار</item>
+        <item>کشاورز</item>
+        <item>رفتگر</item>
+        <item>فضانورد</item>
+        <item>آتش نشان</item>
+        <item>قصاب</item>
+        <item>پستچی</item>
+        <item>نویسنده</item>
+        <item>هنرمند</item>
+        <item>آشپز</item>
+        <item>مجسمه ساز</item>
+        <item>باغبان</item>
+        <item>نوازنده</item>
+        <item>شیرینی فروش</item>
+    </array>
+
+    <array name="mode">
+        <item>شلوار</item>
+        <item>ژاکت</item>
+        <item>کاپشن</item>
+        <item>کفش</item>
+        <item>چکمه</item>
+        <item>صندل</item>
+        <item>جوراب</item>
+        <item>پیژامه</item>
+        <item>جوراب شلواری</item>
+        <item>شال</item>
+        <item>دستکش</item>
+        <item>کلاه</item>
+        <item>کراوات</item>
+        <item>پاپیون</item>
+        <item>ساعت مچی</item>
+        <item>کمربند</item>
+        <item>مایو</item>
+        <item>کت و شلوار</item>
+        <item>لباس مجلسی</item>
+    </array>
+
+    <array name="zarbList">
+        <item>1. Bald reif hält nicht steif</item>
+        <item>  استعداد یا موفقیت هایی که بدون زحمت بدست آمده اغلب زود از بین می رود.باد آورده را باد می برد.</item>
+        <item>2. Gleiche Gemüter suchen sich</item>
+        <item>ذهن های مشابه به دنبال یکدیگر می گردند.</item>
+        <item>3. Die Ratten verlassen das sinkende Schiff</item>
+        <item>هنگام خطر افراد ترسو از همه زودتر فرار می کنند.</item>
+        <item>4. Andere Länder, andere Sitten</item>
+        <item>خواهی نشوی رسوا همرنگ جماعت شو.</item>
+        <item>5. An den Früchten erkennt man den Baum</item>
+        <item>پسر کو ندارند نشان از پدر.</item>
+        <item>6. Das Glück hilft dem Kühnen</item>
+        <item>موفقیت با شجاعان است.</item>
+        <item>7. Unter den Blinden ist der Einäugige König</item>
+        <item>در شهر کوران آدم یک چشم پادشاه است.</item>
+        <item>8. Wer Feuer bedarf, sucht es in der Asche</item>
+        <item>موفقیت به معنی انجام کاری است که دوست دارید.</item>
+        <item>9. Aus den Augen, aus dem Sinn</item>
+        <item>از دل برود هر آنچه از دیده برفت.</item>
+        <item>10. Beiß nicht in die Hand, die dich füttert</item>
+        <item>دستی که بهت غذا داده را گاز نگیر.</item>
+        <item>11. Wie du mir , so ich dir</item>
+        <item>چیزی که عوض داره گله نداره.</item>
+        <item>12. Machst du es gut , so hast du es gut</item>
+        <item>تو نیکی میکن و در دجله انداز که ایزد در بیابانت دهد باز.</item>
+        <item>13. Eine Schwalbe macht noch keinen Sommer</item>
+        <item>با آمدن یک چلچله تابستان نمی آید .با یک گل بهار نمی شود.</item>
+        <item>14. Eine Stecknadel im Heuhaufen suchen</item>
+        <item>دنبال سوزن در انبار کاه گشتن.</item>
+        <item>15. Rom ist auch nicht an einem Tag erbaut worden</item>
+        <item>شهر رم یک روزه ساخته نشده است .گر صبر کنی ز غوره حلوا سازی.</item>
+        <item>16. Viele Köche verderben den Brei</item>
+        <item>آشپز که دو تا شد آش یا شور می شود یا بی نمک.</item>
+        <item>17. Einem geschenkten Gaul schaut man nicht ins</item>
+        <item>دندان های اسب پیشکشی را نمی شمرند.</item>
+        <item>18. Aus einer Mücke einen Elefanten machen</item>
+        <item>از کاه کوه ساختن.</item>
+        <item>19. Morgenstund’ hat Gold im Mund</item>
+        <item>سحرخیز باش تا کام روا باشی.</item>
+        <item>20. Hunde, die bellen, beißen nicht</item>
+        <item>سگی که پارس می کند گاز نمی گیرد.</item>
+        <item>21. Zwei Fliegen mit einer Klappe schlagen</item>
+        <item>با یک تیر دو نشان زدن.</item>
+        <item>22. Lügen haben kurze Beine</item>
+        <item>دروغ گو پاهای کوتاهی دارد .دروغ گو کم حافظه است.</item>
+        <item>23. Probieren geht über studieren</item>
+        <item>تجربه کردن بهتر از آموختن است .دو صد گفته چون نیم کردار نیست.</item>
+        <item>24. Ihm juckt das Fell</item>
+        <item>تنش می خارد.</item>
+        <item>25. Schlaf und Tod sind Zwillingsbruder</item>
+        <item>خواب و مرگ برادران دوقلو هم هستند.</item>
+        <item>26. Haar auf flacher Hand raufen wollen</item>
+        <item>کندن مو از کف دست.</item>
+        <item>27. Irren ist menschlich</item>
+        <item>اشتباه کردن برای انسان است.</item>
+        <item>28. Gesunder Geist in gesundem Körper</item>
+        <item>ذهن سالم در بدن سالم.</item>
+        <item>29. Faulheit lohnt mit Armut</item>
+        <item>نتیجه تنبلی فقر است.</item>
+        <item>30. Der Fisch stinkt vom Kopf her</item>
+        <item>ماهی از سر گنده گردد نی ز دم.</item>
+        <item>31. Wer zuletzt lacht, lacht am besten</item>
+        <item>موفقیت ها یا شکست های کوچک که در طول مسیر حاصل می شوند اهمیتی ندارند برنده واقعی کسی است که در پایان مسیر به موفقیت برسد.</item>
+        <item>32. Anfangen ist leicht, beharren eine Kunst</item>
+        <item>شروع کارها آسان است، هنر این است که آنها را به پایان برسانیم.</item>
+        <item>33. Die beste Verteidigung ist der Angriff</item>
+        <item>حمله بهترین شکل دفاع است.</item>
+        <item>34. Der Stärkere hat immer Recht</item>
+        <item>حق همیشه با قدرتمندان است.</item>
+        <item>35. Man sieht nur das, was man weiß</item>
+        <item>شما آن چیزی را می بینید که می دانید.</item>
+        <item>36. Das Leben gehört den Lebenden an, und wer lebt, muss auf Wechsel gefasst sein</item>
+        <item>زندگی به زندگان تعلق دارد و هر کس که زنده است باید آماده تغییر باشد.</item>
+        <item>37. Es ist nichts schrecklicher als eine tätige Unwissenheit</item>
+        <item>هیچ چیز بدتر از جهل در عمل نیست.</item>
+        <item>38. Alles zu seiner Zeit</item>
+        <item>همه چیز در زمان خودش.شکیبایی خوی پسندیده ای است.</item>
+        <item>39. Ohne Fleiß , keinen Preis</item>
+        <item>نا برده رنج ، گنج میسر نمی شود.</item>
+        <item>40. Reden ist Silber , Schweigen ist Gold</item>
+        <item>حرف زدن نقره است سکوت طلا.</item>
+    </array>
+
+</resources>

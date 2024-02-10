@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn"
+        android:drawableLeft="@drawable/ic_baseline_circle_24"
+        android:drawableRight="@drawable/ic_baseline_circle_24"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="اصطلاحات آلمانی"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="یادگیری زبان آلمانی کار دشواری نیست و اگر شما با زبان انگلیسی تا حدودی آشنا باشید، کار آسانتر خواهد بود به این دلیل که آلمانی و انگلیسی ریشه ی یکسانی دارند. اگر دوست دارید با اصطلاحات مهم و کاربردی آلمانی آشنا شوید، به این برنامه خوش آمدید : این برنامه به آموزش عبارات و کلمه های آلمانی در وضعیت های مختلفی از جمله پزشکی ، مکانیابی ، رستوران و ... پرداخته و  با هدف یادگیری بهتر ، تمامی اصطلاحات را در دسته های جداگانه تقسیم بندی کرده و شما میتوانید آنها را مرور کنید و تلفظ آنها و کلمات ضروری در موقعیت های مختلف  و  ضرب المثل های مرتبط را نیز بیاموزید. "
+        android:textColor="@color/black"
+        android:textDirection="rtl"
+        android:textSize="19sp"></TextView>
+
+
+</LinearLayout>
